@@ -1,13 +1,3 @@
-# setwd("C:/Users/paloureiro/projetos_R")
-# scd_list <- read.table((file=paste("scdarea_corr.dat",sep="")),skip=0)
-
-# scd_df <- data.frame(scd_list)
-# colnames(scd_df) <-c("area","sn1","sn2","nmol","temperature","mean_area","index")
-# scd_df$nmol <-as.factor(scd_df$nmol) # transforma nmol em fator
-# scd_df$temperature <-as.factor(scd_df$temperature) # transforma temperature em fator
-# scd_df$mean_area <-as.factor(scd_df$mean_area)
-# subset(scd_df,subset=(mean_area == 62 & temperature == 323 & index == 1))
-
 setwd("C:/Users/pedro/paper_voro_analises/dppca62g53a6t323/")
 require(graphics)
 
